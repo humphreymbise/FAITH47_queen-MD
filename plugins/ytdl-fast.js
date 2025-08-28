@@ -35,7 +35,7 @@ cmd({
 👀 *Views:* ${yts.views}
 👤 *Author:* ${yts.author.name}
 🔗 *Link:* ${yts.url}
-> Powered By CRISS AI ❤️`;
+> Powered By ZEZE TECH ❤️`;
 
         // Send video directly with caption
         await conn.sendMessage(
@@ -89,8 +89,8 @@ cmd({
             body: "Follow our WhatsApp Channel",
             mediaType: 1,
             thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
-            mediaUrl: 'https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t',
+            sourceUrl: 'https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v',
+            mediaUrl: 'https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }
