@@ -1,6 +1,6 @@
-name: khan-md
+name: faith-md
 services:
-  - name: criss-ai-service
+  - name: faith-47-service
     type: web
     ports:
       - 5000
