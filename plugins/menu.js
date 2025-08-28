@@ -17,10 +17,10 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         let dec = `╭━━〔 🚀 *${config.BOT_NAME}* 〕━━┈⊷
 ┃◈╭─────────────────·๏
-┃◈┃• 👑 *Owner :* ${config.OWNER_NAME}
-┃◈┃• ⚙️ *Prefix :* [${config.PREFIX}]
+┃◈┃• 🏆*Owner :* ${config.OWNER_NAME}
+┃◈┃• 💎*Prefix :* [${config.PREFIX}]
 ┃◈┃• 🌐 *Platform :* vercel
-┃◈┃• 📦 *Version :* 5.0.0 Pro
+┃◈┃• 💻 *Version :* 5.0.0 Pro
 ┃◈┃• ⏱️ *Runtime :* ${runtime(process.uptime())}
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• ❣️ test
 ┃◈┃• ❣️ alive
 ┃◈┃• ❣️ owner
-┃◈┃• ❣️ play
+┃◈┃• ❣️ play1
 ┃◈┃• ❣️ videos
 ┃◈┃• ❣️ define
 ┃◈┃• ❣️ channel
@@ -45,9 +45,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• ❣️ fancy
 ┃◈┃• ❣️ bible
 ┃◈┃• ❣️ quran
-┃◈┃• ❣️ bug
+┃◈┃• ❣️ kick
 ┃◈┃• ❣️ info
-┃◈┃• ❣️ logo
+┃◈┃• ❣️ cry
 ┃◈┃• ❣️ gpt
 ┃◈┃• ❣️ profile
 ┃◈┃• ❣️ antilink
@@ -55,7 +55,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• ❣️ pdf
 ┃◈┃• ❣️ hack
 ┃◈┃• ❣️ faith
-┃◈┃• ❣️ zeze
+┃◈┃• ❣️ love
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
 > ${config.DESCRIPTION}`;
