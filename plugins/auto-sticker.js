@@ -6,7 +6,7 @@ cmd({
   on: 'body'
 }, async (conn, mek, m, { from, body }) => {
   try {
-    const jsonUrl = 'https://raw.githubusercontent.com/criss-vevo/CRISS-DATA/main/autosticker.json';
+    const jsonUrl = 'https://github.com/humphreymbise/FAITH47_queen-MD-DATA/main/autosticker.json';
     const res = await axios.get(jsonUrl);
     const data = res.data;
 
