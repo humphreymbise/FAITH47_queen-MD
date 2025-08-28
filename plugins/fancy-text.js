@@ -11,7 +11,7 @@ cmd({
 }, async (conn, m, store, { from, quoted, args, q, reply }) => {
   try {
     if (!q) {
-      return reply("❎ Please provide text to convert into fancy fonts.\n\n*Example:* .fancy Hello");
+      return reply("❎ Please provide text to convert into fancy fonts.\n\n*Example:* .fancy faith");
     }
 
     const apiUrl = `https://www.dark-yasiya-api.site/other/font?text=${encodeURIComponent(q)}`;
@@ -22,7 +22,7 @@ cmd({
     }
 
     const fonts = response.data.result.map(item => `*${item.name}:*\n${item.result}`).join("\n\n");
-    const resultText = `✨ *Fancy Fonts Converter* ✨\n\n${fonts}\n\n> *Powered by CRISS-AI*`;
+    const resultText = `✨ *Fancy Fonts Converter* ✨\n\n${fonts}\n\n> *Powered by ZEZE TECH*`;
 
     await conn.sendMessage(from, { text: resultText }, { quoted: m });
   } catch (error) {
