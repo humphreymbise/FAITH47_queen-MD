@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363378608564635@newsletter',
-                    newsletterName: config.OWNER_NAME || 'CRISS AI SUPPORT',
+                    newsletterJid: '',
+                    newsletterName: config.OWNER_NAME ||'ZEZE TECH',
                     serverMessageId: 143
                 }
             }
