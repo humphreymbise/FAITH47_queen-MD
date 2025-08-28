@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/criss-vevo/CRISS-AI';
+    const githubRepoURL = 'https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v';
 
     try {
         // Extract username and repo name from the URL
@@ -31,15 +31,15 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://res.cloudinary.com/dgy2dutjs/image/upload/v1751624587/url.crissvevo.co.tz/IMG_2353_fze42l.jpg` },
+            image: { url: `https://files.catbox.moe/q8hps6.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363417599637828@newsletter',
-                    newsletterName: 'CRISS AI',
+                    newsletterJid: 'https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v',
+                    newsletterName: 'faith',
                     serverMessageId: 143
                 }
             }
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363417599637828@newsletter',
-                    newsletterName: 'CRISS AI',
+                    newsletterJid: '',
+                    newsletterName: 'queen_faith',
                     serverMessageId: 143
                 }
             }
