@@ -68,8 +68,8 @@ ${translatedTafsirEnglish.text}`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363417599637828@newsletter',
-                        newsletterName: 'CRISS AI',
+                        newsletterJid: '',
+                        newsletterName: 'queen_faith47',
                         serverMessageId: 143
           }
         }
@@ -451,15 +451,15 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/4ggu0a.jpg` },
+                image: { url: `https://files.catbox.moe/q8hps6.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363417599637828@newsletter',
-                        newsletterName: 'CRISS AI',
+                        newsletterJid: '',
+                        newsletterName: 'queen_faith47',
                         serverMessageId: 143
                     }
                 }
@@ -468,7 +468,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/criss-vevo/CRISS-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://github.com/humphreymbise/FAITH47_queen-MD-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
