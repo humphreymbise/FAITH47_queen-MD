@@ -64,7 +64,7 @@ async (conn, mek, m, {
         ];
 
         // Create menu text
-        let menuText = "╭━━━〔 *CRISS AI VOICE MODELS* 〕━━━⊷\n";
+        let menuText = "╭━━━〔 *queen_faith47 VOICE MODELS* 〕━━━⊷\n";
         voiceModels.forEach(model => {
             menuText += `┃▸ ${model.number}. ${model.name}\n`;
         });
