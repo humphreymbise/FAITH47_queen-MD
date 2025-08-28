@@ -40,13 +40,13 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           externalAdReply: {
-            title: config.BOT_NAME || "CRISS-AI 🥀",
-            body: config.DESCRIPTION || "POWERED BY CRISS VEVO 🤌💗",
+            title: config.BOT_NAME || "queen_faith47_md🥀",
+            body: config.DESCRIPTION || "POWERED BY ZEZE TECH",
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
-            mediaUrl: "https://files.catbox.moe/4ggu0a.jpg", // Static image URL
-            sourceUrl: "https://whatsapp.com/channel/0029VbAhCy8EquiTSb5pMS3t",
+            mediaUrl: "https://files.catbox.moe/q8hps6.jpg", // Static image URL
+            sourceUrl: "https://whatsapp.com/channel/0029VbANIT5D8SDpK7oExi1v",
             showAdAttribution: true
           }
         }
