@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for CRISS-AI bot",
+    desc: "Get pairing code for queen_faith47 bot",
     category: "download",
-    use: ".pair +255687068XXX",
+    use: ".pair +25562966XXXXX",
     filename: __filename
 }, async (conn, mek, m, {
     from, quoted, body, isCmd, command, args, q, isGroup,
@@ -32,7 +32,7 @@ cmd({
 
         const pairingCode = response.data.code;
 
-        await reply(`✅ *CRISS-AI PAIRING SUCCESSFUL!*\n\n📲 *Phone:* ${phoneNumber}\n🔐 *Pairing Code:* ${pairingCode}`);
+        await reply(`✅ *QUEEN_FAITH47 PAIRING SUCCESSFUL!*\n\n📲 *Phone:* ${phoneNumber}\n🔐 *Pairing Code:* ${pairingCode}`);
 
     } catch (error) {
         console.error("Pair command error:", error);
