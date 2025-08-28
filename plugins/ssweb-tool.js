@@ -1,4 +1,4 @@
-// code by ⿻ ⌜ 𝐂𝐑𝐈𝐒𝐒 ⌟⿻⃮͛🇵🇰𖤐
+// code by ⿻ ⌜ FAITH47 ⌟⿻⃮͛🇵🇰𖤐
 
 const axios = require("axios");
 const config = require('../config');
@@ -31,14 +31,14 @@ async (conn, mek, m, {
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By CRISS VEVO*",
+      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By ZEZE TECH*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363378608564635@newsletter',
-          newsletterName: "CRISS AI SUPPORT",
+          newsletterJid: '',
+          newsletterName: "FAITH47",
           serverMessageId: 143,
         },
       },
