@@ -35,8 +35,8 @@ async (conn, mek, m, { from, sender, reply }) => {
                 forwardingScore: 1000,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363417599637828@newsletter',
-                    newsletterName: 'CRISS AI',
+                    newsletterJid: '',
+                    newsletterName: 'FAITH47-MD',
                     serverMessageId: 143
                 }
             }
@@ -47,4 +47,3 @@ async (conn, mek, m, { from, sender, reply }) => {
         reply(`An error occurred: ${e.message}`);
     }
 });
-
