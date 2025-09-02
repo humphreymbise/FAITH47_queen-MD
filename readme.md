@@ -10,4 +10,4 @@
 
 ## 👇 HEROKU DEPLOYMENT¥
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/FAITH47_queen-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Blackie254/black-super-bot)
